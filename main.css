@@ -1,0 +1,320 @@
+body {
+    background-image: url("images/starfield-banner.jpg");
+    width: 95%;
+    padding: 30px 25px;
+}
+.logo {
+    float: left;
+    /* display: inline-block; */
+    width: 100px;
+    height: 100px;
+}
+.search {
+ 
+
+    margin-left: 260px;
+}
+#menu li {
+    list-style: none;
+    float: left;
+    font-size: 110%;
+    margin: 0 6px;
+}
+#nev li {
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    margin: 0 6px;
+}
+
+
+a {
+    text-decoration: none;
+    color:white;
+}
+input {
+    height: 40px;
+    background-image: url("images/search.svg");
+    /* background-size: 30%; */
+}
+
+.nevigate {
+    background-color: grey;
+    margin: 50px 190px 10px 190px;
+    height: 40px;
+    font-size: 85%;
+
+}
+.main {
+    margin: 20px 20px;
+
+    
+
+}
+
+.dawn {
+    float: left;
+    height: 600px;
+    width: 605px;
+    background-image: url("images/pia21924-16.jpg");
+    position: relative;
+    overflow: hidden;
+}
+
+.climate p:nth-of-type(1) {
+    background-color: rgb(142, 138, 190);
+    line-height: 32px;
+    color: aliceblue;
+    display: inline-block;
+    padding: 3px 6px;
+    position: absolute;
+    bottom: 47px;
+}
+.dawn p:nth-of-type(2), .climate p:nth-of-type(2) {
+    background-color: rgb(207, 207, 207);
+    line-height: 32px;
+    color: black;
+    position: absolute;
+    bottom: -15px;
+    width: 100%;
+    padding: 0 3px;   
+}
+
+.climate {
+    height: 300px;
+    width: 305px;
+    margin-left: 620px;
+    margin-right: 320px;
+    background-image: url("images/mollweide_cycle.jpg");
+    position: relative;
+    overflow: hidden;
+
+}
+.events {
+    float: right;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(44, 44, 224);
+}
+.leftoff {
+    height: 285px;
+    width: 621px;
+    margin-left: 620px;
+    margin-top: 14px;
+    background-image: url("images/s69-39961.jpg");
+    position: relative;
+    overflow: hidden;
+
+}
+.leftoff p {
+    background-color: rgb(207, 207, 207);
+    line-height: 32px;
+    color: black;
+    position: absolute;
+    bottom: -15px;
+    width: 100%;
+    padding: 0 3px;
+   
+
+}
+.clear,.clear2, .clear3 {
+    clear: both;
+}
+.image {
+    float: left;
+    height: 300px;
+    width: 300px;
+    background-image: url("images/ssc2017-14a1.jpg");
+    position: relative;
+    overflow: hidden;
+}
+.video {
+    float: right;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.asteroids {
+    height: 300px;
+    width: 600px;
+    margin-left: 320px;
+    margin-right: 320px;
+    background-image: url("images/pia22556-16.gif");
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.image p:nth-of-type(1) {
+    background-color: rgb(142, 138, 190);
+    line-height: 32px;
+    color: aliceblue;
+    display: inline-block;
+    padding: 3px 6px;
+    position: absolute;
+    bottom: 17px;
+}
+
+.asteroids p:nth-of-type(1) {
+    background-color: rgb(142, 138, 190);
+    line-height: 32px;
+    color: aliceblue;
+    display: inline-block;
+    padding: 3px 6px;
+    margin-top: 230px;
+}
+
+
+.image p:nth-of-type(2),.asteroids p:nth-of-type(2) {
+    background-color: rgb(207, 207, 207);
+    line-height: 32px;
+    color: black;
+    position: absolute;
+    bottom: -15px;
+    width: 100%;
+    padding: 0 3px;   
+}
+
+.nasa {
+    float: left;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("images/nasa_logo.png")
+}
+
+.fermi {
+    float: right;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("images/fermiicecube_as.jpg")
+}
+
+.lastImages {
+    height: 300px;
+    width: 600px;
+    margin-left: 320px;
+    margin-right: 320px;
+
+}
+
+.juno {
+    height: 300px;
+    width: 290px;
+    float: left;
+    background-image: url("images/io-home.gif");
+    position: relative;
+    overflow: hidden;
+
+}
+
+.cassini {
+    height: 300px;
+    width: 290px;
+    float: right;
+    background-image: url("images/cassini20170809.jpg");
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.nasa p:nth-of-type(2),.fermi p:nth-of-type(2),.juno p:nth-of-type(2),.cassini p:nth-of-type(2) {
+    background-color: rgb(207, 207, 207);
+    line-height: 32px;
+    color: black;
+    position: absolute;
+    bottom: -15px;
+    width: 100%;
+    padding: 0 3px;   
+}
+
+.nasa p:nth-of-type(1) {
+    background-color: rgb(142, 138, 190);
+    line-height: 32px;
+    color: aliceblue;
+    display: inline-block;
+    padding: 3px 6px;
+    margin-top: 200px;
+}
+
+.juno p:nth-of-type(1) {
+    background-color: rgb(142, 138, 190);
+    line-height: 32px;
+    color: aliceblue;
+    display: inline-block;
+    padding: 3px 6px;
+    margin-top: 200px;
+}
+
+.cassini p:nth-of-type(1) {
+    background-color: rgb(142, 138, 190);
+    line-height: 32px;
+    color: aliceblue;
+    display: inline-block;
+    padding: 3px 6px;
+    margin-top: 200px;
+}
+
+.fermi p:nth-of-type(1) {
+    background-color: rgb(142, 138, 190);
+    line-height: 32px;
+    color: aliceblue;
+    display: inline-block;
+    padding: 3px 6px;
+    margin-top: 200px;
+}
+
+.footer div:nth-of-type(1) {
+    background-color: rgb(80, 88, 163);
+    height: 40px;
+    margin: 20px 20px;
+    text-align: center;
+    color: white;
+
+}
+.footer a {
+    line-height: 40px;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.footer img {
+    margin-left: 20px;
+    float: left;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0 6px;
+    font-size: 90%;
+    text-align: right;
+    padding-left: 30%;
+
+}.footer li a {
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    margin: 0 6px;
+    text-align: right;
+    color: rgb(80, 88, 163);
+}
+/* .header {
+    background: url('素材/starfield-banner.jpg ');
+    position: fixed;
+    width: 95%;
+}
+
+.header .logo-link {
+    padding: 10px;
+}
+
+.header .logo {
+    width:110px;
+    margin:11px;
+} */
